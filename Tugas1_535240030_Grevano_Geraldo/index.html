@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Grevano Geraldo</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      display: flex;
+      min-height: 100vh;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 250px;
+      background: #1f1f1f;
+      padding: 30px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      height: 100%;
+    }
+
+    .sidebar img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #00bcd4;
+      margin-bottom: 20px;
+    }
+
+    .sidebar h1 {
+      font-size: 22px;
+      margin: 10px 0 5px;
+    }
+
+    .sidebar p {
+      font-size: 14px;
+      color: #bbb;
+      margin-bottom: 20px;
+    }
+
+    .sidebar nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+    }
+
+    .sidebar nav ul li {
+      margin: 10px 0;
+    }
+
+    .sidebar nav ul li a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #e0e0e0;
+      background: #2a2a2a;
+      border-radius: 6px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .sidebar nav ul li a:hover {
+      background: #00bcd4;
+      color: #121212;
+    }
+
+    /* Main content */
+    .content {
+      margin-left: 270px;
+      padding: 30px;
+      flex: 1;
+    }
+
+    section {
+      margin-bottom: 40px;
+      padding: 20px;
+      background: #1e1e1e;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    }
+
+    section h2 {
+      margin-top: 0;
+      border-left: 5px solid #00bcd4;
+      padding-left: 10px;
+      color: #00bcd4;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+      color: #999;
+      font-size: 13px;
+    }
+
+    /* Supaya Responsive */
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column;
+      }
+
+      .sidebar {
+        position: relative;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        height: auto;
+      }
+
+      .sidebar img {
+        width: 60px;
+        height: 60px;
+        margin: 0;
+      }
+
+      .sidebar h1, .sidebar p {
+        display: none;
+      }
+
+      .sidebar nav ul {
+        display: flex;
+        justify-content: center;
+        width: auto;
+      }
+
+      .sidebar nav ul li {
+        margin: 0 5px;
+      }
+
+      .content {
+        margin: 0;
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <img src="https://www.w3schools.com/w3images/avatar2.png" alt="Foto Profil">
+    <h1>Grevano Geraldo</h1>
+    <p>Flutter Developer</p>
+    <nav>
+      <ul>
+        <li><a href="#about">Tentang Saya</a></li>
+        <li><a href="#skills">Keahlian</a></li>
+        <li><a href="#experience">Pengalaman</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="content">
+    <section id="about">
+      <h2>Tentang Saya</h2>
+      <p>
+        Flutter Developer yang fokus pada pengembangan aplikasi mobile dengan integrasi Firebase. 
+        Memiliki minat besar dalam membangun aplikasi yang efisien, modern, dan mudah digunakan.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Keahlian</h2>
+      <ul>
+        <li>Flutter</li>
+        <li>Firebase</li>
+        <li>Dart</li>
+        <li>MySQL</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Pengalaman</h2>
+      <ul>
+        <li><b>Mobile Developer Intern</b> - PT. Angkasa Jaya (2023)</li>
+        <li><b>Freelance Flutter Developer</b> - Marketplace App (2022)</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Kontak</h2>
+      <p>Email: grevano@example.com</p>
+      <p>Telepon: +62 812-3456-7890</p>
+      <p>LinkedIn: linkedin.com/in/grevano</p>
+      <p>GitHub: github.com/grevano</p>
+    </section>
+
+    <footer>
+      <p>© 2025 Grevano Geraldo - CV Landing Page</p>
+    </footer>
+  </div>
+
+</body>
+</html>

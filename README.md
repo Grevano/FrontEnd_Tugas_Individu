@@ -1,2 +1,3 @@
-# FrontEnd_Tugas_Individu
-# FrontEnd_Tugas_Individu
+Tugas Individu Frontend
+Nama    : Grevano Geraldo
+NIM     : 535240030
